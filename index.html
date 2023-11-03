@@ -1,125 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Netflix</title>
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather&family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@0,800;0,900;1,300;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
 
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+        }
+        body{
+            background-color: rgb(0,0, 35);
+            color: white;
+            font-family: 'poppins',sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color:rgb(1, 1, 10) ;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
 
-    <div class="navbar">
-<li class="logo"><img src="Netflix img.png"></li>
-<li class="buttons">Sign In</a>
-
-    </div>
-    <div class="main">
-<div class="area">
-  <h1>Unlimited movies, TV <br>shows, and more.</h1>
-  <h3>Watch anywhere. Cancel anytime.
-    </h3>
-
-    <div class="search">
-      <input type="text" class="box" placeholder="Email">
-      <span class="try">
-Try 30 days free <i class="fas fa-chevron-right"></i>
-
-
-      </span>
-</div>
-<h4>Ready to watch? Enter your email to create or access your account
-  </h4>
-    </div>
-
-    </div>
-    <div class="container1">
-        <div class="text">
-          <h1>Enjoy on your TV.
-            </h1>
-            <p>
-                Watchx on Smart TVs, Playstation, Xbox, <br>
-                Chromecast, Apple TV, Blu-ray players, and<br>
-                 more.
-            </p>
-        </div>
-        <div class="image">
-  <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
-        </div>
-      </div>
-      <div class="container1">
-
-          <div class="image">
-    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile.png">
-          </div>
-          <div class="text">
-              <h1>Download your shows to watch on the go.
-                </h1>
-                <p>
-                    Save your data and watch all your favorites offline.
-                </p>
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(182, 130, 230);
+            font-size: 1.04rem;
+        }
+        .left{
+            font-size: 1.8rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px 0;
+        }
+        .firstsection >div{
+            width: 30%;
+        }
+        .leftsection{
+            margin: 80px 0;
+           font-size: 2rem;
+        }
+      
+        
+        .rightsection img{
+            width: 70%;
+            margin: 50px 0;
+            border-radius: 40%;
+        }
+        .name{
+            color: blueviolet;
+            font-size: 2rem;
+        }
+        #element{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">shudhanshu kumar portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skille.html">skille</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi my name is <samp class="name">shudhanshu kumar</samp> 
+                <div>and I am passionate</div>
+                
+                <span id="element"><div>Web Devloper</div></span>
             </div>
 
-        </div>
-        <div class="container1">
-            <div class="text">
-              <h1>Watch everywhere.
-
-                </h1>
-                <p>
-                    Stream unlimited movies and TV shows on <br>your phone, tablet, laptop, and TV without paying more.
-
-                </p>
+            <div class="rightsection">
+                <img src="WhatsApp Image 2023-11-03 at 2.47.12 PM.jpeg" alt="Image">
             </div>
-            <div class="image">
-      <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png">
-            </div>
-          </div>
-                          </span>                       
-                    <div class="footer">
-                        <div class="footercon">
-                          <div class="flex1">   
-               <ul class="list1">       
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Investor Relation</a></li>
-                        <li><a href="">Ways to Watch</a></li>
 
-                        <li><a href="">Corporate Information</a></li>
-                        <li><a href="">Netflix Originals</a></li>
-                        </ul>
-                        <ul class="list1">
-                        <li><a href="">Home</a></li>
-                            <li><a href="">Jobs</a></li>
-                            <li><a href="">Terms of Use</a></li>
-                            <li><a href="">Contact Us</a></li>
-                            <li><a href="">#</a></li>
-                            </ul>
-                            <ul class="list1">
-                                <li><a href="">Account</a></li>
-                                <li><a href="">Redeem Gift Cards</a></li>
-                                <li><a href="">Privacy</a></li>
-                                <li><a href="">Speed Test</a></li>
-                                <li><a href="">#</a></li>
-
-                                </ul>
-                                <ul class="list1">
-                                    <li><a href="">Media Center<</a></li>
-                                    <li><a href="">Buy Gift Cards</a></li>
-                                    <li><a href="">Cookie Preferences</a></li>
-                                    <li><a href="">Legal Notices</a></li>
-                                    <li><a href="">#</a></li>
-
-                                    </ul>
-
-                    </div>
-
-                  </div>
-                  <div class="end">
-<h2>
-  &copy; 2023 Harsh Vardhan K. All rights reserved.
-</h2> 
-<h2>
-  </h2>                    </div>
-  </body>
+        </section>
+       
+        
+    </main>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
 </html>
